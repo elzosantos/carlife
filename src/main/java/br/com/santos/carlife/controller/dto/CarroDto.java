@@ -14,6 +14,7 @@ public class CarroDto {
 	private LocalDateTime dataCriacao;
 g	Marca marca;
  
+	private String top;
 	public CarroDto(Carro carro) {
 		this.id = carro.getId();
 		this.nomeCarro = carro.getNomeCarro();
