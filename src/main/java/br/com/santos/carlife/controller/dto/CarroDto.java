@@ -13,7 +13,7 @@ public class CarroDto {
 	private String nomeCarro;
 	private LocalDateTime dataCriacao;
 	private Marca marca;
-	private String base;
+	private String baseForte;
  
 	public CarroDto(Carro carro) {
 		this.id = carro.getId();
