@@ -12,9 +12,10 @@ public class CarroDto {
 	private Long id;
 	private String nomeCarro;
 	private LocalDateTime dataCriacao;
-g	Marca marca;
+g	
  
 	private String top;
+	
 	public CarroDto(Carro carro) {
 		this.id = carro.getId();
 		this.nomeCarro = carro.getNomeCarro();
