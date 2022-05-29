@@ -12,7 +12,6 @@ public class CarroDto {
 	private Long id;
 	private String nomeCarro;
 	private LocalDateTime dataCriacao;
-g	
 	private Marca marca;
 	private String baseForte;
  
