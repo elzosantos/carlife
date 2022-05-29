@@ -15,6 +15,8 @@ public class CarroDto {
 	private Marca marca;
 	private String baseForte;
  
+	private String top;
+	
 	public CarroDto(Carro carro) {
 		this.id = carro.getId();
 		this.nomeCarro = carro.getNomeCarro();
